@@ -9,6 +9,9 @@
         fieldset { border:3px solid #1EFAFF; padding: 0 0.5em 0.5em; }
         html { font: 90%/1.3 arial,sans-serif; background:#1EFAFF; color: #ff66d9; }
         label {float: none; width: 12em; display: block; clear: both; }
+        label.SL {color: #ffffff}
+        #CRLabel {  color: #ffffff}
+
 
 
 	</style>
@@ -25,7 +28,7 @@
             <h3>Spheres:</h3>
             <table>
                 <tr>
-                    <td><label for="sphereRadius">Radius:</label></td>
+                    <td><label for="sphereRadius" class="SL">Radius:</label></td>
                     <td><input type="text"
                                id="sphereRadius"
                                name="sphereRadius"
@@ -33,7 +36,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><label for="sphereVolume">Volume:</label></td>
+                    <td><label for="sphereVolume" class="SL">Volume:</label></td>
                     <td><input type="text"
                                id="sphereVolume"
                                name="sphereVolume"
@@ -59,7 +62,7 @@
             <h3>Cones:</h3>
             <table>
                 <tr>
-                    <td><label for="coneRadius">Radius:</label></td>
+                    <td><label for="coneRadius" id="CRLabel">Radius:</label></td>
                     <td><input type="text"
                                id="coneRadius"
                                name="coneRadius"
